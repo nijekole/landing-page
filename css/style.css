@@ -34,7 +34,6 @@ body
 {
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 100%;
     width: 70%;
     margin: auto;
@@ -48,7 +47,8 @@ body
 
 .nav .navbar
 {
-    justify-content: space-between;
+    justify-content: center;
+    gap: 500px;
 }
 
 .navbar ul li 
@@ -76,7 +76,8 @@ body
 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
     height: 100%;
     width: 70%;
     margin: auto;
@@ -86,7 +87,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
+    justify-content: space-between;
     gap: 10px;
     width: 500px;
     height: 300px;
@@ -102,7 +103,6 @@ body
     border-radius: 5px;
     border: 2px solid #3882f6;
 }
-
 .right-hero
 {
     width: 500px;
