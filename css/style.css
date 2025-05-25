@@ -29,6 +29,7 @@ body
 .nav
 {
     height: 80px;
+    margin-bottom: 50px;
 }
 .navbar
 {
@@ -107,4 +108,27 @@ body
 {
     width: 500px;
     height: 300px;
+}
+
+
+.first-part-info
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.first-part-info h1
+{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    align-self: center;
+}
+
+.illustrations img
+{
+    width: 200px;
+    height: 200px;
 }
