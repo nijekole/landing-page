@@ -29,7 +29,6 @@ body
 .nav
 {
     height: 80px;
-    margin-bottom: 50px;
 }
 .navbar
 {
@@ -71,7 +70,7 @@ body
 }
 .containerhero
 {
-    height: 400px;
+    height: 500px;
 }
 .hero
 {
@@ -91,7 +90,7 @@ body
     justify-content: space-between;
     gap: 10px;
     width: 500px;
-    height: 300px;
+    height: 200px;
 }
 
 .left-hero button
@@ -103,14 +102,18 @@ body
     font-weight: bold;
     border-radius: 5px;
     border: 2px solid #3882f6;
+    font-size: 18px;
 }
 .right-hero
 {
     width: 500px;
-    height: 300px;
+    height: 200px;
 }
 
-
+.first-part
+{
+    height: 400px;
+}
 .first-part-info
 {
     display: flex;
@@ -131,4 +134,33 @@ body
 {
     width: 200px;
     height: 200px;
+}
+
+.illustrations
+{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+}
+
+.card img
+{
+    border: 4px solid #3882f6;
+    border-radius: 15%;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub
+{
+    font-size: 16px;
+    text-align: center;
+    color: #676767;
+    width: 200px;
 }
