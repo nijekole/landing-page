@@ -78,7 +78,7 @@ body
     align-items: center;
     justify-content: center;
     gap: 50px;
-    height: 100%;
+    height: 80%;
     width: 70%;
     margin: auto;
 }
@@ -163,4 +163,35 @@ body
     text-align: center;
     color: #676767;
     width: 200px;
+}
+
+.second-part
+{
+    height: 400px;
+    background-color: #e5e7eb;
+}
+
+.quotetext
+{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.quotesaidby
+{
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: bold;
 }
