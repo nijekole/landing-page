@@ -7,12 +7,12 @@ Check it out here: [https://nijekole.github.io/landing-page/](https://nijekole.g
 
 ## 🛠️ Built With
 
--HTML
+-HTML  
 -CSS
 
 ## 📁 Project Structure
-📂 landing-page/
-├── index.html
-├── /css/
-│ └── style.css
-└── /images/
+📂 landing-page/  
+├── index.html  
+├── /css/  
+│ └── style.css  
+└── /images/  
